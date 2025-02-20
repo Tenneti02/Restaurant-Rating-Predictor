@@ -10,7 +10,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error, r2_score
 
 # Load data from the uploaded Excel file
-df = pd.read_excel('/content/Dataset .xlsx')  # Adjust path if needed
+df = pd.read_excel('Dataset .xlsx')  # Adjust path if needed
 
 # Select features for prediction
 features = ['Price range', 'Has Table booking', 'Has Online delivery', 'Cuisines', 'Average Cost for two', 'City']
